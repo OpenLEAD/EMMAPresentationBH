@@ -1,0 +1,140 @@
+\documentclass{beamer}[10]
+\usepackage{pgf}
+\usepackage[danish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{beamerthemesplit}
+\usepackage{graphics,epsfig, subfigure}
+\usepackage{url}
+\usepackage{srcltx}
+\usepackage{hyperref}
+
+\definecolor{kugreen}{RGB}{0,180,114}%{50,93,61} 
+\definecolor{kugreenlys}{RGB}{132,158,139}
+\definecolor{kugreenlyslys}{RGB}{173,190,177}
+\definecolor{kugreenlyslyslys}{RGB}{0,135,114}%{214,223,216}
+\setbeamercovered{transparent}
+\mode<presentation>
+\usetheme[numbers,totalnumber,compress,sidebarshades]{PaloAlto}
+\setbeamertemplate{footline}[frame number]
+ 
+  \usecolortheme[named=kugreen]{structure}
+  \useinnertheme{circles}
+  \usefonttheme[onlymath]{serif}
+  \setbeamercovered{transparent}
+  \setbeamertemplate{blocks}[rounded][shadow=true]
+\logo{\includegraphics[width=1.5cm]{figs/logo_branca}}
+\setbeamercolor{logo}{bg=kugreenlyslyslys}
+%\useoutertheme{infolines} 
+\title{Access 2: Big Hatch}
+\author{Renan S. Freitas}
+\institute{LEAD \\ COPPETEC}
+\date{05/08/2015}
+
+
+
+\begin{document}
+\frame{\titlepage \vspace{-0.5cm} 
+}
+
+\frame
+{
+\frametitle{Overview}
+\tableofcontents%[pausesection]
+}
+
+\section{Conditions}
+
+\frame{
+\frametitle{Conditions}
+\begin{itemize}
+  \item Hatch dimensions
+  \item Environment
+\end{itemize}
+}
+
+\subsection{Hatch dimensions}
+
+\frame{
+\frametitle{Hatch dimensions}
+\begin{itemize}
+  \item 800 mm Diameter
+\end{itemize}
+}
+
+\frame{
+\frametitle{Environment}
+\begin{itemize}
+  \item 
+\end{itemize}
+}
+
+\section{Pros and cons}
+
+\frame{
+\frametitle{Pros and cons} 
+\begin{itemize}
+  \item Pros
+  \item Cons
+\end{itemize}
+%\begin{block}{Something important}
+%Einstein's formula
+%$$E=mc^2$$
+%\end{block}
+}
+
+\frame{
+\frametitle{Pros} 
+\begin{itemize}
+  \item Bigger hole for mounted small robots or unmounted big robot;
+  \item Dry operation;
+  \item Free access;
+  \item \textbf{Already used for turbine maintenance}.
+\end{itemize}
+}
+
+\frame{
+\frametitle{Cons} 
+\begin{itemize}
+  \item Not big enough for mounted big robots;
+  \item Complex transport: scaffolding and hoist;
+  \item Difficulties for robot positioning and movement inside the
+  Aro Camara. Slippery and sloping floor. 
+\end{itemize}
+}
+
+\section{Logistics solutions}
+\frame{
+\frametitle{Logistics solutions}
+\begin{itemize}
+  \item Aro Camara access;
+  \item Robot movement.
+\end{itemize}
+}
+
+\subsection{Aro Camara access}
+
+\frame{
+\frametitle{Aro Camara access}
+Hoist
+}
+
+\subsection{Robot movement}
+
+\frame{
+\frametitle{Robot movement}
+Horizontal plane
+}
+
+\section{Robot solutions}
+\frame{
+\frametitle{Robot solutions}
+\begin{itemize}
+  \item Rail robot;
+  \item Manipulator arm;
+  \item Climber robot;
+  \item Spherical base with manipulator arm;
+\end{itemize}
+}
+
+
+\end{document}
