@@ -56,37 +56,29 @@
 
 \frame{
 \frametitle{Hatch dimensions}
+\begin{figure}[h!]	
+	\includegraphics[width=0.8\columnwidth]{figs/bighatch.jpg}
+	\caption{The big hatch}
+	\label{big_hatch}
+\end{figure}
 \begin{itemize}
   \item Diameter: $800 mm$ 
 \end{itemize}
 }
 
-\frame{
-\frametitle{Hatch dimensions}
-\begin{figure}[h!]	
-	\includegraphics[width=0.9\columnwidth]{figs/bighatch.jpg}
-	\caption{The big hatch}
-	\label{big_hatch}
-\end{figure}
-}
-
 \subsection{Environment constraints}
 \frame{
 \frametitle{Environment}
+\begin{figure}[h!]	
+	\includegraphics[width=0.6\columnwidth]{figs/environment.jpg}
+	\caption{Aro Camara}
+	\label{aro_camara}
+\end{figure}
 \begin{itemize}
   \item Hoist $5 m$;
   \item Slippery and sloping floor;
   \item Dark and damp;
 \end{itemize}
-}
-
-\frame{
-\frametitle{Environment}
-\begin{figure}[h!]	
-	\includegraphics[width=0.9\columnwidth]{figs/environment.jpg}
-	\caption{Aro Camara}
-	\label{aro_camara}
-\end{figure}
 }
 
 \section{Pros and cons}
@@ -119,8 +111,7 @@
 \begin{itemize}
   \item Not big enough for mounted big robots;
   \item Complex transportation: scaffolding and hoist;
-  \item Difficulties for robot positioning and movement inside the
-  Aro Camara.  
+  \item Difficulties for robot positioning and movement.  
 \end{itemize}
 }
 
@@ -136,9 +127,14 @@
 
 \frame{
 \frametitle{Aro Camara access}
+\begin{figure}[h!]	
+	\includegraphics[height=0.45\columnwidth]{figs/Logistics.pdf}
+	\caption{Logistics}
+	\label{logistics}
+\end{figure}
 \begin{itemize}
   \item Hoist for robot access;
-  \item Scaffolding, wood and ropes. Fixation points ?
+  \item Scaffolding, wood and ropes;
   \item Robot's base with wheels.
 \end{itemize}
 }
@@ -148,14 +144,6 @@
 	\includegraphics[width=0.9\columnwidth]{figs/ropes.jpg}
 	\caption{Scaffolding and ropes}
 	\label{ropes}
-\end{figure}
-}
-\frame{
-\frametitle{Aro Camara access}
-\begin{figure}[h!]	
-	\includegraphics[height=0.65\columnwidth]{figs/Logistics.pdf}
-	\caption{Logistics}
-	\label{logistics}
 \end{figure}
 }
 
@@ -175,9 +163,7 @@
 \frametitle{Robotic solutions}
 \begin{itemize}
   \item Manipulator arm;
-  \item Rail robot;
-  \item Climber robot;
-  \item Spherical base with manipulator arm.
+  \item Rail robot.
 \end{itemize}
 }
 
@@ -201,41 +187,106 @@
 \frame{
 \frametitle{Between blades}
 \begin{figure}[h!]	
-	\includegraphics[height=0.5\columnwidth]{figs/envgrid.pdf}
+	\includegraphics[height=0.4\columnwidth]{figs/envgrid.pdf}
 	\caption{Manipulator between blades} 
 	\label{between}
 \end{figure}
 \begin{itemize}
   \item Assuming $3.5 m$ radius;
-  \item Platform with almost $2.8 m$ heigth;
-  \item Arm reachs $3.5 m$.
+  \item Base with almost $1 m$ heigth;
+  \item Arm must reach $3.5 m$.
 \end{itemize}
 }
 
 \frame{
 \frametitle{Between blades}
+\begin{figure}[h!]	
+	\includegraphics[height=0.38\columnwidth]{figs/irb5500.png}
+	\caption{IRB5500} 
+	\label{between}
+\end{figure}
 \begin{itemize}
   \item Everytime you rotate the turbine, you must move the robot; 
-  \item Non avaiable comercial arm. ABB IRB 5500 with $3 m$ reach and $700 mm$
-  base.
+  \item No comercial manipulator avaiable. ABB IRB 5500 with $3 m$ reach and
+  $700 mm$ base, $540 Kg$.
 \end{itemize}
 }
 
 \frame{
 \frametitle{In front of the blade}
 \begin{figure}[h!]	
-	\includegraphics[height=0.6\columnwidth]{figs/bladecalc.jpg}
+	\includegraphics[height=0.4\columnwidth]{figs/bladecalc.pdf}
 	\caption{Manipulator in front of the blade}
 	\label{infront}
 \end{figure}
 \begin{itemize}
   \item Assuming $3 m$ arc length;
-  \item Platform with almost $1.04 m$ heigth;
-  \item Arm reachs $1.67 m$.
+  \item Base with $1.04 m$ heigth;
+  \item Arm must reach $1.67 m$.
 \end{itemize}
 }
 
+\frame{
+\frametitle{In front of the blade}
+\begin{figure}[h!]	
+	\includegraphics[height=0.4\columnwidth]{figs/arms.pdf}
+	\caption{Commercial manipulators}
+	\label{commercial}
+\end{figure}
+\begin{itemize}
+  \item Fanuc M-20iA/10L, ABB IRB 2600, Motoman HP20: 250 to 270 Kg robots;
+  \item Kuka LBR iiwa 14 R820: 1300 mm reach. Person should not enter the Aro
+  Camara after first coating.
+\end{itemize}
+}
 
-
+\subsection{Rail Robot}
+\frame{
+\frametitle{Rail Robot}
+\begin{figure}[h!]	
+	\includegraphics[height=0.5\columnwidth]{figs/rail1.pdf}
+	\caption{Manipulator in rail}
+	\label{maniprail}
+\end{figure}
+}
+\frame{
+\frametitle{Rail Robot}
+\begin{figure}[h!]	
+	\includegraphics[height=0.6\columnwidth]{figs/rail2.pdf}
+	\caption{Rail Concept phase 1}
+	\label{bladerail1}
+\end{figure}
+}
+\frame{
+\frametitle{Rail Robot}
+\begin{figure}[h!]	
+	\includegraphics[height=0.6\columnwidth]{figs/rail3.pdf}
+	\caption{Rail Concept phase 2}
+	\label{bladerail2}
+\end{figure}
+}
+\frame{
+\frametitle{Rail Robot}
+\begin{figure}[h!]	
+	\includegraphics[height=0.6\columnwidth]{figs/rail4.pdf}
+	\caption{Rail Concept phase 3}
+	\label{bladerail3}
+\end{figure}
+}
+\frame{
+\frametitle{Rail Robot}
+\begin{figure}[h!]	
+	\includegraphics[height=0.6\columnwidth]{figs/rail5.pdf}
+	\caption{Rail position}
+	\label{railpos}
+\end{figure}
+\begin{itemize}
+  \item Custom rail. Mind torque on rail;
+  \item LRB 14 820: $170^o/s$, $940 mm$ end effector, $14 Kg$ payload, $4 Nm$
+  end effector torque;
+  \item One side of the blade per day. Rail should be mounted and unmounted 4
+  times on the other side of the blades.
+\end{itemize}
+}
 
 \end{document}
